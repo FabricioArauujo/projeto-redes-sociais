@@ -41,11 +41,19 @@ main{
 }
 
 #redes-sociais{
-    text-align: right;
+    position: absolute;
+    right: 5px;
 }
 #redes-sociais img{
-    padding: 15px;
+    margin: 25px;
     width: 60px;
     border-radius: 50%;
     display: block;
+    box-shadow: 2px 2px 5px rgba(0, 0,0, 0.400);
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover{
+    border:  2px solid white; 
+    transform: scale(1.1); 
 }
